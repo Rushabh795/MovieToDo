@@ -92,13 +92,32 @@
                     <view key="view" contentMode="scaleToFill" id="FDH-Rg-nBF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-mY-xmu">
+                                <rect key="frame" x="20" y="423" width="374" height="427"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="MK0-VG-VnZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bdb-mY-xmu" firstAttribute="trailing" secondItem="FDH-Rg-nBF" secondAttribute="trailingMargin" id="YsF-js-MgE"/>
+                            <constraint firstItem="bdb-mY-xmu" firstAttribute="top" secondItem="MK0-VG-VnZ" secondAttribute="top" constant="379" id="mw1-mw-rvn"/>
+                            <constraint firstItem="MK0-VG-VnZ" firstAttribute="bottom" secondItem="bdb-mY-xmu" secondAttribute="bottom" constant="12" id="wzc-RF-hL4"/>
+                            <constraint firstItem="bdb-mY-xmu" firstAttribute="leading" secondItem="FDH-Rg-nBF" secondAttribute="leadingMargin" id="zwX-s7-N1H"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="moviename" destination="bdb-mY-xmu" id="Ogw-9a-ojV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e6I-8o-c3Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2723" y="55"/>
+            <point key="canvasLocation" x="2721.739130434783" y="54.910714285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dac-bI-PX3">

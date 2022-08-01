@@ -27,13 +27,20 @@ class AddMovieViewController: UIViewController ,UITextFieldDelegate {
         guard let text = feild.text , !text.isEmpty else{
             return
         }
-        guard let count = UserDefaults().value(forKey: "count") as? Int else
-        {
-            return
-        }
-        let newCount = count + 1
-        UserDefaults().set(newCount, forKey: "count")
-        UserDefaults().set(text, forKey: "movie_\(newCount)")
+        let userDefaults = UserDefaults.standard
+        var strings: [String] = userDefaults.object(forKey: "myMovieList") as? [String] ?? []
+        strings.append(text)
+        userDefaults.set(strings, forKey: "myMovieList")
+
+
+//
+//        guard let count = UserDefaults().value(forKey: "count") as? Int else
+//        {
+//            return
+//        }
+//        let newCount = count + 1
+//        UserDefaults().set(newCount, forKey: "count")
+//        UserDefaults().set(text, forKey: "movie_\(count)")
         //optional
         update?()
         //dismiss controller
