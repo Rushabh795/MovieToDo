@@ -40,16 +40,33 @@
                             <outlet property="delegate" destination="NrK-V5-Z0t" id="NF7-ZE-Mvv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="dIA-KI-PJa"/>
+                    <navigationItem key="navigationItem" id="dIA-KI-PJa">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="2jn-jg-bdj"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ssR-pG-95x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="784.05797101449286" y="54.910714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Movie View Controller-->
+        <scene sceneID="5PN-bZ-mmc">
+            <objects>
+                <viewController storyboardIdentifier="add" id="VxT-vr-3ig" customClass="AddMovieViewController" customModule="MovieToDo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zxm-Up-GUK" customClass="ADdmovie">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jOK-M0-aci"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LNq-gq-i2W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="55"/>
+        </scene>
+        <!--Movie View Controller-->
         <scene sceneID="I1z-Nu-gaU">
             <objects>
-                <viewController id="DPn-Ix-PtT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view" id="DPn-Ix-PtT" customClass="MovieViewController" customModule="MovieToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FDH-Rg-nBF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e6I-8o-c3Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1784.057971014493" y="63.616071428571423"/>
+            <point key="canvasLocation" x="2723" y="55"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dac-bI-PX3">

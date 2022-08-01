@@ -23,6 +23,11 @@ class MovieTableViewController: UITableViewController {
  
     }
 
+    @IBAction func didTapAdd()
+    {
+        
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
