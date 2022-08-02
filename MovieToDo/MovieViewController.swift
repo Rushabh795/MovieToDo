@@ -14,8 +14,6 @@ class MovieViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         moviename.text = movie
-        // Do any additional setup after loading the view.
-      
     }
 
 }

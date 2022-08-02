@@ -16,7 +16,6 @@
 		100EE3432897519300080BF5 /* MovieToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE3422897519300080BF5 /* MovieToDoUITests.swift */; };
 		100EE3452897519300080BF5 /* MovieToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE3442897519300080BF5 /* MovieToDoUITestsLaunchTests.swift */; };
 		100EE35428975B1800080BF5 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE35328975B1800080BF5 /* MovieTableViewController.swift */; };
-		100EE37828976E8200080BF5 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE37728976E8100080BF5 /* movie.swift */; };
 		100EE39A28984B8D00080BF5 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE39928984B8D00080BF5 /* AddMovieViewController.swift */; };
 		100EE39C28984BC400080BF5 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100EE39B28984BC400080BF5 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		100EE3422897519300080BF5 /* MovieToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieToDoUITests.swift; sourceTree = "<group>"; };
 		100EE3442897519300080BF5 /* MovieToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		100EE35328975B1800080BF5 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
-		100EE37728976E8100080BF5 /* movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
 		100EE39928984B8D00080BF5 /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
 		100EE39B28984BC400080BF5 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +106,6 @@
 				100EE3212897519100080BF5 /* AppDelegate.swift */,
 				100EE3232897519100080BF5 /* SceneDelegate.swift */,
 				100EE35328975B1800080BF5 /* MovieTableViewController.swift */,
-				100EE37728976E8100080BF5 /* movie.swift */,
 				100EE3272897519100080BF5 /* Main.storyboard */,
 				100EE32A2897519300080BF5 /* Assets.xcassets */,
 				100EE32C2897519300080BF5 /* LaunchScreen.storyboard */,
@@ -269,7 +266,6 @@
 			files = (
 				100EE3222897519100080BF5 /* AppDelegate.swift in Sources */,
 				100EE3242897519100080BF5 /* SceneDelegate.swift in Sources */,
-				100EE37828976E8200080BF5 /* movie.swift in Sources */,
 				100EE39A28984B8D00080BF5 /* AddMovieViewController.swift in Sources */,
 				100EE35428975B1800080BF5 /* MovieTableViewController.swift in Sources */,
 				100EE39C28984BC400080BF5 /* MovieViewController.swift in Sources */,

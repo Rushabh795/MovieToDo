@@ -1,9 +1,3 @@
-//
-//  AddMovieViewController.swift
-//  MovieToDo
-//
-//  Created by Rushabh Shah on 2022-08-01.
-//
 
 import UIKit
 
@@ -27,23 +21,13 @@ class AddMovieViewController: UIViewController ,UITextFieldDelegate {
         guard let text = feild.text , !text.isEmpty else{
             return
         }
+        //get user default array and save into it.
         let userDefaults = UserDefaults.standard
-        var strings: [String] = userDefaults.object(forKey: "myMovieList") as? [String] ?? []
-        strings.append(text)
-        userDefaults.set(strings, forKey: "myMovieList")
-
-
-//
-//        guard let count = UserDefaults().value(forKey: "count") as? Int else
-//        {
-//            return
-//        }
-//        let newCount = count + 1
-//        UserDefaults().set(newCount, forKey: "count")
-//        UserDefaults().set(text, forKey: "movie_\(count)")
+        var srMoveName: [String] = userDefaults.object(forKey: "myMovieList") as? [String] ?? []
+        srMoveName.append(text)
+        userDefaults.set(srMoveName, forKey: "myMovieList")
         //optional
         update?()
-        //dismiss controller
         navigationController?.popViewController(animated: true)
     }
 }
